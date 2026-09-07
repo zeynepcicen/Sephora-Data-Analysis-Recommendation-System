@@ -38,7 +38,7 @@ Designed for first-time visitors who haven't interacted with any product yet. Ba
 - The relevant segment's product pool is filtered by the user's skin type, maximum budget, and minimum rating preference.
 - The top 5 highest-rated products are recommended.
 
-**🤖 AI Mode (Content-Based + Segment-Based Ranking)**
+**🔍 AI Mode (Content-Based + Segment-Based Ranking)**
 Activated when the user has a product they liked or viewed:
 - Cosine similarity is used to find the 20 most content-similar products to the selected one.
 - This pool is then re-ranked using different criteria depending on the customer's K-Means segment:
