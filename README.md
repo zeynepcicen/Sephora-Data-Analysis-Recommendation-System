@@ -1,34 +1,34 @@
 # Sephora Data Analysis & Recommendation System
 
 > Group Project — May 2026
+> **Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, PyCharm, GitHub
 
----
-
-### About the Project
+## About the Project
 
 This is an end-to-end data science project developed as a team using a Sephora dataset published on Kaggle. The project consists of 4 main stages: data engineering, exploratory data analysis (EDA), customer segmentation, and a **dual-mode product recommendation system**.
 
-Dataset
-The dataset used in this project can be found on Kaggle here.
+## Dataset
 
-### Stages
+The dataset used in this project can be found on [Kaggle here](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews).
 
-#### 1. Data Engineering
+## Stages
+
+### 1. Data Engineering
 - Raw data containing 10,000+ cosmetic products and over 1 million customer reviews was obtained from Kaggle.
 - Missing values were identified and filled — numerical columns with the mean, categorical columns with the mode.
 - Outliers were detected using the IQR method and corrected using boundary values.
 - Categorical variables such as brand name and skin type were encoded using Label Encoding.
 - The cleaned dataset was exported in CSV format to be shared with the team.
 
-#### 2. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 - Brand distributions, product counts by skin type, and the price-rating relationship were visualized.
 - The question "Is a more expensive product better?" was analyzed statistically.
 
-#### 3. Customer Segmentation
+### 3. Customer Segmentation
 - Customers were grouped based on purchasing behavior using K-Means.
 - Segments such as "budget-conscious buyers" and "luxury brand enthusiasts" were identified.
 
-#### 4. Recommendation System (Dual Mode)
+### 4. Recommendation System (Dual Mode)
 
 The system operates in two different modes depending on the user's context:
 
@@ -50,12 +50,12 @@ Activated when the user has a product they liked or viewed:
 
 This dual structure allows the system to provide personalized recommendations both for new users (solving the cold-start problem) and for users with prior interaction history.
 
-### Tech Stack
+## Tech Stack
 - **Python** — main programming language
 - **Pandas / NumPy** — data processing and analysis
 - **Scikit-learn** — K-Means clustering, cosine similarity, Label Encoding
 - **Matplotlib / Seaborn** — data visualization
 - **PyCharm** — development environment
 
-### Team
+## Team
 This project was developed as a group project in May 2026.
